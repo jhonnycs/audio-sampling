@@ -1,9 +1,32 @@
 # audio-sampling
 Experimento de gravação e reamostragem de voz em Python (4kHz, 8kHz, 16kHz)
 
+## Sumário
+
+- [Sobre a atividade](#sobre-a-atividade)
+- [Como executar](#como-executar)
+
+
+## Sobre a atividade
+A atividade é da disciplina processamento digital de sinais. Ela consiste no seguinte:
+
+Gravar 3 amostras de voz falando uma frase. Uma amostra deve ter 4 kHz; outra amostra deve ter 8 kHz; outra, 16 kHz.
+
+Depois de gravar as amostras, devemos transformas as amostras de 4 kHz e de 16 kHz em 8 kHz e comparar elas.
+
+Comparamos as amostras gravadas com as amostras originais, e dizemos qual a diferença.
+
+## Resultados
+Depois de fazer as gravações, esses foram os resultados:
+
+
+
+
+## Como executar
+
 Para rodar, clone ou baixe o repositório, e dentro da pasta do projeto, prossiga.
 
-## Bibliotecas
+### Bibliotecas
 Algumas bibliotecas de áudio foram criadas. Para rodar, certifique-se de instalá-las
 
 `pip install sounddevice soundfile scipy`
