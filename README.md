@@ -17,10 +17,22 @@ Depois de gravar as amostras, devemos transformas as amostras de 4 kHz e de 16 k
 Comparamos as amostras gravadas com as amostras originais, e dizemos qual a diferença.
 
 ## Resultados
-Depois de fazer as gravações, esses foram os resultados:
+Depois de fazer as gravações, essas foram as constatações:
 
+### 4 kHz original
+O áudio em 4 kHz original apresentou uma qualidade extremamente baixa. O áudio ficou extremamente abafado.
 
+### 8 kHz original
+O áudio em 8 kHz fica um pouco mais claro. Ele ainda é abafado, mas é levemente mais compreensível.
 
+### 16 kHz original
+O áudio em 16 kHz já é extremamente claro. Dá pra entender com mais clareza o que está sendo dito; não é abafado.
+
+### 8 kHz vindo de 4 kHz
+Apesar de ser em 8 kHz, o áudio está bastante semelhante ao 4 kHz original. Bastante abafado, não muito claro. Não se assemelha ao 8 kHz original.
+
+### 8 kHz vindo de 16 kHz
+Se assemelha ao áudio em 8 kHz. Está levemente menos abafado que o áudio original em 8 kHz, mas bastante parecido.
 
 ## Como executar
 
