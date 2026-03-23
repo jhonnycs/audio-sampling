@@ -16,6 +16,7 @@ def converter_para_8k(arquivo):
     novo_nome = nome_base.replace(".wav", "_to_8k.wav")
 
     sf.write(f"audios-convertidos/{novo_nome}", audio_resample, nova_taxa)
+    print("Áudios convertidos. Salvos em ./audios-convertidos")
 
 converter_para_8k("audios/voz_4k.wav")
 converter_para_8k("audios/voz_16k.wav")
